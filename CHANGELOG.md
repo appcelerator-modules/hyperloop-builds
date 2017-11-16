@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [3.0.0-beta.4] - 2017-11-16
+
+### Added
+- Android: Exceptions now bubble up to JavaScript and have to be catched there.
+
 ## [3.0.0-beta.3] - 2017-11-15
 
 ### Fixed
@@ -67,7 +72,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - iOS: Fixed detection of blocks if they were defined as a type before, e.g. in the [Contentful SDK](https://www.contentful.com/developers/docs/ios/sdks/).
 - Windows: Evaluating a null value is no longer causing a crash.
 
-[Unreleased]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.0-beta.3...HEAD
+[Unreleased]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.0-beta.4...HEAD
+[3.0.0-beta.4]: https://github.com/appcelerator/hyperloop.next/compare/2.2.2...v3.0.0-beta.4
 [3.0.0-beta.3]: https://github.com/appcelerator/hyperloop.next/compare/2.2.2...v3.0.0-beta.3
 [3.0.0-beta.2]: https://github.com/appcelerator/hyperloop.next/compare/2.2.2...v3.0.0-beta.2
 [3.0.0-beta.1]: https://github.com/appcelerator/hyperloop.next/compare/2.2.2...v3.0.0-beta.1
