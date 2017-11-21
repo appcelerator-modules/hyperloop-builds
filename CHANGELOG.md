@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.2.3] - 2017-11-21
+
+### Fixed
+- iOS: Usage of frameworks that were introdcued in a later iOS version than the minimum deployment target caused a crash on older devices / iOS versions.
+
 ## [3.0.0-beta.4] - 2017-11-16
 
 ### Added
@@ -73,6 +78,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Windows: Evaluating a null value is no longer causing a crash.
 
 [Unreleased]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.0-beta.4...HEAD
+[2.2.3]: https://github.com/appcelerator/hyperloop.next/compare/v2.2.2...v2.2.3
 [3.0.0-beta.4]: https://github.com/appcelerator/hyperloop.next/compare/2.2.2...v3.0.0-beta.4
 [3.0.0-beta.3]: https://github.com/appcelerator/hyperloop.next/compare/2.2.2...v3.0.0-beta.3
 [3.0.0-beta.2]: https://github.com/appcelerator/hyperloop.next/compare/2.2.2...v3.0.0-beta.2
