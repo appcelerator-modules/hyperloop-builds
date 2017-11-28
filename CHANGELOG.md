@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## 3.0.1 Beta 2 - 2017-11-23
+
+### Fixed
+- Use correct framework header includes for various Swift frameworks ([TIMOB-25554](https://jira.appcelerator.org/browse/TIMOB-25554))
+
+## 3.0.1 Beta 1 - 2017-11-22
+
+### Fixed
+- iOS: Weak link newer frameworks than the minimum deployment target. Allows to use version-specific API's in apps without crashing on older devices / iOS versions. ([TIMOB-25440](https://jira.appcelerator.org/browse/TIMOB-25440))
+- iOS: Use basename when importing Swift interface headers ([TIMOB-25550](https://jira.appcelerator.org/browse/TIMOB-25550))
+
 ## [2.2.3] - 2017-11-21
 
 ### Fixed
