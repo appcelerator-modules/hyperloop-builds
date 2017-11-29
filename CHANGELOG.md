@@ -6,12 +6,21 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## 3.0.1 Beta 2 - 2017-11-23
+## [3.0.1] - 2017-11-29
 
 ### Fixed
-- Use correct framework header includes for various Swift frameworks ([TIMOB-25554](https://jira.appcelerator.org/browse/TIMOB-25554))
 
-## 3.0.1 Beta 1 - 2017-11-22
+- iOS: Weak link newer frameworks than the minimum deployment target. Allows to use version-specific API's in apps without crashing on older devices / iOS versions. ([TIMOB-25440](https://jira.appcelerator.org/browse/TIMOB-25440))
+- iOS: Use basename when importing Swift interface headers ([TIMOB-25550](https://jira.appcelerator.org/browse/TIMOB-25550))
+- iOS: Use correct framework header includes for Swift frameworks ([TIMOB-25554](https://jira.appcelerator.org/browse/TIMOB-25554))
+- iOS: Use correct umbrella header import in native helpers ([TIMOB-25564](https://jira.appcelerator.org/browse/TIMOB-25564))
+
+## [3.0.1-beta.2] - 2017-11-23
+
+### Fixed
+- iOS: Use correct framework header includes for various Swift frameworks ([TIMOB-25554](https://jira.appcelerator.org/browse/TIMOB-25554))
+
+## [3.0.1-beta.1] - 2017-11-22
 
 ### Fixed
 - iOS: Weak link newer frameworks than the minimum deployment target. Allows to use version-specific API's in apps without crashing on older devices / iOS versions. ([TIMOB-25440](https://jira.appcelerator.org/browse/TIMOB-25440))
@@ -21,6 +30,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 - iOS: Usage of frameworks that were introdcued in a later iOS version than the minimum deployment target caused a crash on older devices / iOS versions.
+
+## [3.0.0] - 2017-11-20
+
+### Added
+- Android: Exceptions now bubble up to JavaScript and have to be catched there.
+
+### Changed
+- Hyperloop is now included as a pre-packaged module in Titanium SDK 7.0.0 for all platforms. This means Hyperloop 3.0.0 will only work with SDK 7.0.0.
+- Android: Build Android Hyperloop against SDK 7.0.0 and v8 5.7+.
+- iOS: Use JavaScriptCore by default.
+
+### Fixed
+- Edge-case where the build would fail in a project without any plugins.
+
+### Removed
+- Windows: Drop Windows 8.1 support.
 
 ## [3.0.0-beta.4] - 2017-11-16
 
@@ -89,7 +114,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Windows: Evaluating a null value is no longer causing a crash.
 
 [Unreleased]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.0-beta.4...HEAD
-[2.2.3]: https://github.com/appcelerator/hyperloop.next/compare/v2.2.2...v2.2.3
+[3.0.1]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.0...v3.0.1
+[3.0.1-beta.2]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.0...v3.0.1-beta.2
+[3.0.1-beta.1]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.0...v3.0.1-beta.1
+[2.2.3]: https://github.com/appcelerator/hyperloop.next/compare/2.2.2...v2.2.3
+[3.0.0]: https://github.com/appcelerator/hyperloop.next/compare/2.2.2...v3.0.0
 [3.0.0-beta.4]: https://github.com/appcelerator/hyperloop.next/compare/2.2.2...v3.0.0-beta.4
 [3.0.0-beta.3]: https://github.com/appcelerator/hyperloop.next/compare/2.2.2...v3.0.0-beta.3
 [3.0.0-beta.2]: https://github.com/appcelerator/hyperloop.next/compare/2.2.2...v3.0.0-beta.2
