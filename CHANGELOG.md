@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+None
+
+## [Released]
+
+## [3.0.2] - 2018-02.02
+
+### Fixed
+
+- [x] iOS: Improve compatibility with CocoaPods ([TIMOB-25604](https://jira.appcelerator.org/browse/TIMOB-25604))
+- [x] Android: Expose access to interface methods ([TIMOB-24684](https://jira.appcelerator.org/browse/TIMOB-24684))
+- [x] Android: Fix JavaScript wrappers not being generated for some internal JARs ([TIMOB-23933](https://jira.appcelerator.org/browse/TIMOB-23933))
+
 ## [3.0.1] - 2017-11-29
 
 ### Fixed
