@@ -8,13 +8,50 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ---
 
+## [3.1.0] - 2018-07.24
+
+### Fixed
+
+- iOS: Using ES6 arrow functions in Hyperloop-related code cannot be handled ([TIMOB-25806](https://jira.appcelerator.org/browse/TIMOB-25806))
+
+### Changed
+
+- iOS: Show native class descriptions in logs instead of "HyperloopClass" ([TIMOB-25880](https://jira.appcelerator.org/browse/TIMOB-25880))
+- Windows: Add compatibility with SDK 7.3.0+ ([TIMOB-26106](https://jira.appcelerator.org/browse/TIMOB-26106))
+
+### Added
+
+- iOS: Be able to receive native delegates from app to native modules / Hyperloop ([TIMOB-24266](https://jira.appcelerator.org/browse/TIMOB-24266))
+- iOS: Support ES6+ imports ([TIMOB-25057](https://jira.appcelerator.org/browse/TIMOB-25057))
+- Android: Support ES6+ imports ([TIMOB-25057](https://jira.appcelerator.org/browse/TIMOB-25057))
+- Windows: Support ES6+ imports ([TIMOB-25890](https://jira.appcelerator.org/browse/TIMOB-25890))
+
+## [3.0.5] - 2018-04.11
+
+### Fixed
+
+- Android: Compile using NDK `r12b`
+- Android: Fix compatibility on `Android 7.0/7.1`
+
+## [3.0.4] - 2018-04.05
+
+### Fixed
+
+- Windows: Add SDK 7.1.1 compatibility ([TIMOB-25895](https://jira.appcelerator.org/browse/TIMOB-25895))
+
+## [3.0.3] - 2018-03.31
+
+### Fixed
+
+- iOS: CocoaPods 1.4.0 breaks metabase generation ([TIMOB-25829](https://jira.appcelerator.org/browse/TIMOB-25829))
+
 ## [3.0.2] - 2018-02.02
 
 ### Fixed
 
-- [x] iOS: Improve compatibility with CocoaPods ([TIMOB-25604](https://jira.appcelerator.org/browse/TIMOB-25604))
-- [x] Android: Expose access to interface methods ([TIMOB-24684](https://jira.appcelerator.org/browse/TIMOB-24684))
-- [x] Android: Fix JavaScript wrappers not being generated for some internal JARs ([TIMOB-23933](https://jira.appcelerator.org/browse/TIMOB-23933))
+- iOS: Improve compatibility with CocoaPods ([TIMOB-25604](https://jira.appcelerator.org/browse/TIMOB-25604))
+- Android: Expose access to interface methods ([TIMOB-24684](https://jira.appcelerator.org/browse/TIMOB-24684))
+- Android: Fix JavaScript wrappers not being generated for some internal JARs ([TIMOB-23933](https://jira.appcelerator.org/browse/TIMOB-23933))
 
 ## [3.0.1] - 2017-11-29
 
@@ -123,7 +160,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - iOS: Fixed detection of blocks if they were defined as a type before, e.g. in the [Contentful SDK](https://www.contentful.com/developers/docs/ios/sdks/).
 - Windows: Evaluating a null value is no longer causing a crash.
 
-[Unreleased]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.2...HEAD
+[Unreleased]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.0...HEAD
+[3.1.0]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.5...v3.1.0
+[3.0.5]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.4...v3.0.5
+[3.0.4]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.3...v3.0.4
+[3.0.3]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.2...v3.0.3
 [3.0.2]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.1...v3.0.2
 [3.0.1]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.0...v3.0.1
 [3.0.1-beta.2]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.0...v3.0.1-beta.2
