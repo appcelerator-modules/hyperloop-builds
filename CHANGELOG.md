@@ -46,7 +46,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Android: Support ES6+ imports ([TIMOB-25057](https://jira.appcelerator.org/browse/TIMOB-25057))
 - Windows: Support ES6+ imports ([TIMOB-25890](https://jira.appcelerator.org/browse/TIMOB-25890))
 
-## [3.0.5] - 2018-04.11
+## [3.0.5] - 2018-04-11
 
 ### Fixed
 
