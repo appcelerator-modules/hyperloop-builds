@@ -8,7 +8,27 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ---
 
-## [3.1.0] - 2018-07.24
+## [3.1.3] - 2018-09-05
+
+### Fixed
+
+- iOS: Using CocoaPods in Hyperloop does not work with Xcode 10 and iOS 12
+
+## [3.1.2] - 2018-07-27
+
+### Fixed
+
+- iOS: TiApp Utility Class methods throw selector-error
+- Android: Objective-C++ files are incorrectly added to the Xcode project
+- Android: Application freezes when trying to reopen window in 7.3.0
+
+## [3.1.1] - 2018-07-27
+
+### Fixed
+
+- iOS: Fix build error caused by duplicate builtins ([TIMOB-26241](https://jira.appcelerator.org/browse/TIMOB-26241))
+
+## [3.1.0] - 2018-07-24
 
 ### Fixed
 
@@ -33,19 +53,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Android: Compile using NDK `r12b`
 - Android: Fix compatibility on `Android 7.0/7.1`
 
-## [3.0.4] - 2018-04.05
+## [3.0.4] - 2018-04-05
 
 ### Fixed
 
 - Windows: Add SDK 7.1.1 compatibility ([TIMOB-25895](https://jira.appcelerator.org/browse/TIMOB-25895))
 
-## [3.0.3] - 2018-03.31
+## [3.0.3] - 2018-03-31
 
 ### Fixed
 
 - iOS: CocoaPods 1.4.0 breaks metabase generation ([TIMOB-25829](https://jira.appcelerator.org/browse/TIMOB-25829))
 
-## [3.0.2] - 2018-02.02
+## [3.0.2] - 2018-02-02
 
 ### Fixed
 
