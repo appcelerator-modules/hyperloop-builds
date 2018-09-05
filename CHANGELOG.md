@@ -180,7 +180,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - iOS: Fixed detection of blocks if they were defined as a type before, e.g. in the [Contentful SDK](https://www.contentful.com/developers/docs/ios/sdks/).
 - Windows: Evaluating a null value is no longer causing a crash.
 
-[Unreleased]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.0...HEAD
+[Unreleased]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.3...HEAD
+[3.1.3]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.2...v3.1.3
+[3.1.2]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.1...v3.1.2
+[3.1.1]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.0...v3.1.1
 [3.1.0]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.5...v3.1.0
 [3.0.5]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.4...v3.0.5
 [3.0.4]: https://github.com/appcelerator/hyperloop.next/compare/v3.0.3...v3.0.4
