@@ -8,6 +8,41 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ---
 
+## [4.0.1] - 2019-01-17
+
+### Fixed
+
+- Android: Compatibility with SDK <8.0.0
+- iOS: Properly load classes from Swift frameworks via objc interface header
+- iOS: Update appc.js third-party configuration deprecation message
+
+## [4.0.0] - 2018-12-19
+
+### Fixed
+
+- Android: Overriding methods that may receive null values as arguments
+- iOS: Exclude types that are unavailable on iOS from metabase
+
+### Changed
+
+- iOS: Refactor iOS metabase generation to improve build time
+- iOS: Internal refactoring and optimization
+
+### Added
+
+- iOS: Support dotted enums (like in Swift)
+- Windows: Support namespace-based imports like Android
+
+### Removed
+
+- iOS: Support for TiCore runtime
+
+## [3.1.4] - 2018-10-15
+
+### Fixed
+
+- Android: Generate meta data for package-private classes
+
 ## [3.1.3] - 2018-09-05
 
 ### Fixed
@@ -180,7 +215,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - iOS: Fixed detection of blocks if they were defined as a type before, e.g. in the [Contentful SDK](https://www.contentful.com/developers/docs/ios/sdks/).
 - Windows: Evaluating a null value is no longer causing a crash.
 
-[Unreleased]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.3...HEAD
+[Unreleased]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.1...HEAD
+[4.0.1]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.0...v4.0.1
+[4,0,0]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.4...v4.0.0
+[3.1.4]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.3...v3.1.4
 [3.1.3]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.2...v3.1.3
 [3.1.2]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.1...v3.1.2
 [3.1.1]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.0...v3.1.1
