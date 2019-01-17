@@ -217,7 +217,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 [Unreleased]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.1...HEAD
 [4.0.1]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.0...v4.0.1
-[4,0,0]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.4...v4.0.0
+[4.0.0]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.4...v4.0.0
 [3.1.4]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.3...v3.1.4
 [3.1.3]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.2...v3.1.3
 [3.1.2]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.1...v3.1.2
