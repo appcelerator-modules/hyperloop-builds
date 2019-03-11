@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ---
 
+## [4.0.2] - 2019-03-11
+
+### Fixed
+
+- Windows: Compatibility with SDK <8.0.0
+- Android: Handle symlinked files
+
 ## [4.0.1] - 2019-01-17
 
 ### Fixed
@@ -215,7 +222,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - iOS: Fixed detection of blocks if they were defined as a type before, e.g. in the [Contentful SDK](https://www.contentful.com/developers/docs/ios/sdks/).
 - Windows: Evaluating a null value is no longer causing a crash.
 
-[Unreleased]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.1...HEAD
+[Unreleased]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.2...HEAD
+[4.0.2]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.1...v4.0.2
 [4.0.1]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.0...v4.0.1
 [4.0.0]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.4...v4.0.0
 [3.1.4]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.3...v3.1.4
