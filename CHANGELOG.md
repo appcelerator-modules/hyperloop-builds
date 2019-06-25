@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ---
 
+## [4.0.3] - 2019-25-06
+
+### Fixed
+
+- Android: Debugging in Hyperloop enabled projects
+- iOS: Debugging in Hyperloop enabled projects
+- iOS: Correctly require minimum SDK 8.0.0
+
 ## [4.0.2] - 2019-03-11
 
 ### Fixed
