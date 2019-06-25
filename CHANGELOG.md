@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ---
 
+## [4.0.3] - 2019-06-25
+
+### Fixed
+
+- Android: Debugging in Hyperloop enabled projects
+- iOS: Debugging in Hyperloop enabled projects
+- iOS: Correctly require minimum SDK 8.0.0
+
 ## [4.0.2] - 2019-03-11
 
 ### Fixed
@@ -222,7 +230,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - iOS: Fixed detection of blocks if they were defined as a type before, e.g. in the [Contentful SDK](https://www.contentful.com/developers/docs/ios/sdks/).
 - Windows: Evaluating a null value is no longer causing a crash.
 
-[Unreleased]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.2...HEAD
+[Unreleased]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.3...HEAD
+[4.0.3]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.2...v4.0.3
 [4.0.2]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.1...v4.0.2
 [4.0.1]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.0...v4.0.1
 [4.0.0]: https://github.com/appcelerator/hyperloop.next/compare/v3.1.4...v4.0.0
