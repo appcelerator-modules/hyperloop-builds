@@ -8,6 +8,62 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ---
 
+## [6.0.0] - 2020-09-21
+
+### Fixed
+
+- iOS: Compatibility with Xcode 12 / iOS 14
+
+### Breaking Change
+
+- iOS: Updated min supported Titanium SDK version to 9.2.0 due to usage of the new XCFramework packaging format only supported by Titanium SDK 9.2.0+.
+
+## [5.0.3] - 2020-04-09
+
+### Fixed
+
+- iOS: Compatibility with XCode 11.4 (TIMOB-27824)[https://jira.appcelerator.org/browse/TIMOB-27824]
+
+## [5.0.2] - 2020-03-03
+
+### Fixed
+
+- Android: Hyperloop builds fail if JDK 12 or higher is installed (TIMOB-27780)[https://jira.appcelerator.org/browse/TIMOB-27780]
+
+## [5.0.1] - 2020-02-19
+
+### Fixed
+
+- Android: Fixed bug where app build will fail if Android NDK is not installed. (TIMOB-27771)[https://jira.appcelerator.org/browse/TIMOB-27771]
+
+## [5.0.0] - 2020-02-10
+
+### Added
+
+- Android: Now builds with gradle to an AAR library.
+- Android: Added x86_64 architecture support.
+- Android: Added support for optional `./platform/android/build.gradle` file in app project.
+
+### Fixed
+
+- Fixed bug where you could not access a Java inner class from an inner class. (TIMOB-27298)[https://jira.appcelerator.org/browse/TIMOB-27298]
+- Added support for accessing Titanium library's Java classes. (TIMOB-27297)[https://jira.appcelerator.org/browse/TIMOB-27297]
+
+### Performance
+
+- Android: Improved build performance. Now 2-3x faster.
+
+### Breaking Changes
+
+- Android: Updated min supported Titanium SDK version to 9.0.0.
+
+## [4.0.4] - 2019-09-10
+
+### Fixed
+
+- iOS: Compatibility with CocoaPods 1.6.0+
+- iOS: Compatibility with Xcode 11 / iOS 13
+
 ## [4.0.3] - 2019-06-25
 
 ### Fixed
