@@ -22,19 +22,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- iOS: Compatibility with XCode 11.4 (TIMOB-27824)[https://jira.appcelerator.org/browse/TIMOB-27824]
+- iOS: Compatibility with XCode 11.4 ([TIMOB-27824](https://jira.appcelerator.org/browse/TIMOB-27824))
 
 ## [5.0.2] - 2020-03-03
 
 ### Fixed
 
-- Android: Hyperloop builds fail if JDK 12 or higher is installed (TIMOB-27780)[https://jira.appcelerator.org/browse/TIMOB-27780]
+- Android: Hyperloop builds fail if JDK 12 or higher is installed ([TIMOB-27780](https://jira.appcelerator.org/browse/TIMOB-27780))
 
 ## [5.0.1] - 2020-02-19
 
 ### Fixed
 
-- Android: Fixed bug where app build will fail if Android NDK is not installed. (TIMOB-27771)[https://jira.appcelerator.org/browse/TIMOB-27771]
+- Android: Fixed bug where app build will fail if Android NDK is not installed. ([TIMOB-27771](https://jira.appcelerator.org/browse/TIMOB-27771))
 
 ## [5.0.0] - 2020-02-10
 
@@ -46,8 +46,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Fixed
 
-- Fixed bug where you could not access a Java inner class from an inner class. (TIMOB-27298)[https://jira.appcelerator.org/browse/TIMOB-27298]
-- Added support for accessing Titanium library's Java classes. (TIMOB-27297)[https://jira.appcelerator.org/browse/TIMOB-27297]
+- Fixed bug where you could not access a Java inner class from an inner class. ([TIMOB-27298](https://jira.appcelerator.org/browse/TIMOB-27298))
+- Added support for accessing Titanium library's Java classes. ([TIMOB-27297](https://jira.appcelerator.org/browse/TIMOB-27297))
 
 ### Performance
 
@@ -287,6 +287,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Windows: Evaluating a null value is no longer causing a crash.
 
 [Unreleased]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.3...HEAD
+[6.0.0]: https://github.com/appcelerator/hyperloop.next/compare/v5.0.3...v6.0.0
+[5.0.3]: https://github.com/appcelerator/hyperloop.next/compare/v5.0.2...v5.0.3
+[5.0.2]: https://github.com/appcelerator/hyperloop.next/compare/v5.0.1...v5.0.2
+[5.0.1]: https://github.com/appcelerator/hyperloop.next/compare/v5.0.0...v5.0.1
+[5.0.0]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.3...v5.0.0
 [4.0.3]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.2...v4.0.3
 [4.0.2]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.1...v4.0.2
 [4.0.1]: https://github.com/appcelerator/hyperloop.next/compare/v4.0.0...v4.0.1
